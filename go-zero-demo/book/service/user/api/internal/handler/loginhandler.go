@@ -3,7 +3,6 @@ package handler
 import (
 	"net/http"
 
-	"github.com/zeromicro/go-zero/rest/httpx"
 	"go-zero-demo/book/service/user/api/internal/logic"
 	"go-zero-demo/book/service/user/api/internal/svc"
 	"go-zero-demo/book/service/user/api/internal/types"

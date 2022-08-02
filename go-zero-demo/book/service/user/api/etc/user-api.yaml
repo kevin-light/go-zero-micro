@@ -1,5 +1,5 @@
 Name: user-api
-Host: 0.0.0.0
+Host: 127.0.0.1
 Port: 8888
 Mysql:
   DataSource: root:123123123@tcp(localhost)/zero-demo?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
@@ -8,5 +8,5 @@ CacheRedis:
     Pass:
     Type: node
 Auth:
-  AccessSecret: $AccessSecret
-  AccessExpire: $AccessExpire
+  AccessSecret: saas
+  AccessExpire: 3600000
